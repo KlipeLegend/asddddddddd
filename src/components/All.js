@@ -165,28 +165,54 @@ export const CardTeam = () => {
     ]
     return (
         <>
-                <div className="cardHeader all_mt">
-                    <h5>church members</h5>
-                    <h1 className='all_h1'>Meet our Inspirational team</h1>
-                </div>
-                <div className="all_card">
-                    {
-                        dataTree.map((val) => (
-                            <div className="tree_card team_card all_mt" key={val.id}>
-                                <div className="team_img">
-                                    <img src={val.img} alt="" />
-                                </div>
-                                    <h3>{val.h3}</h3>
-                                    <h3>{val.h4}</h3>
-                                    <div className="card_icons">
-                                        <img src="./img/face.svg" alt="" />
-                                        <img src="./img/twi.svg" alt="" />
-                                        <img src="./img/in.svg" alt="" />
-                                    </div>
+            <div className="cardHeader all_mt">
+                <h5>church members</h5>
+                <h1 className='all_h1'>Meet our Inspirational team</h1>
+            </div>
+            <div className="all_card">
+                {
+                    dataTree.map((val) => (
+                        <div className="tree_card team_card team_card_mt" key={val.id}>
+                            <div className="team_img">
+                                <img src={val.img} alt="" />
                             </div>
-                        ))
-                    }
+                            <h3>{val.h3}</h3>
+                            <h3>{val.h4}</h3>
+                            <div className="card_icons">
+                                <img src="./img/face.svg" alt="" />
+                                <img src="./img/twi.svg" alt="" />
+                                <img src="./img/in.svg" alt="" />
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+        </>
+    )
+}
+
+export const Bacom = () => {
+    return (
+        <>
+            <div className="bacom">
+                <div className="bacom_text">
+                    <h6>Welcome to our CHURCH</h6>
+                    <h1 className="all_h1">Become a part of <br /> our community</h1>
+                    <button className='all_button'>Learn more</button>
+                    <h2><span><img src="./img/Line.png" alt="" /></span> Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do.</h2>
                 </div>
+            </div>
+        </>
+    )
+}
+
+export const Props = ({ data }) => {
+    return (
+        <>
+            <div className="props_img" style={{ background: data.img }}>
+                <h5>About us</h5>
+                <h1>Serving the world around us</h1>
+            </div>
         </>
     )
 }

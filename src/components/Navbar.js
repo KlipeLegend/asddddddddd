@@ -10,32 +10,32 @@ export const Navbar = () => {
         <>
             <Router>
                 <nav className="navbar">
-                    <div className="nav_logo">
-                        <img src="./img/navlogo.svg" alt="" />
-                    </div>
                     <ul className="nav_item">
+                        <li className="nav_link">
+                            <img src="./img/navlogo.svg" alt="" />
+                        </li>
                         <li className="nav_link">
                             <NavLink to='/'>Home</NavLink>
                         </li>
                         <li className="nav_link">
-                            <NavLink to='/'>About us</NavLink>
+                            <NavLink to='/about'>About us</NavLink>
                         </li>
                         <li className="nav_link">
-                            <NavLink to='/'>Sermon</NavLink>
+                            <NavLink to='/sermon'>Sermon</NavLink>
                         </li>
                         <li className="nav_link">
-                            <NavLink to='/'>Blog</NavLink>
+                            <NavLink to='/blog'>Blog</NavLink>
                         </li>
                     </ul>
                     <div className="nav_btn">
-                        <button>Contact us</button>
+                        <button className='all_button'>Contact us</button>
                     </div>
                 </nav>
                 <Routes>
                     <Route path='/' element={<Home />} />
-                    <Route path='/' element={<About />} />
-                    <Route path='/' element={<Sermon />} />
-                    <Route path='/' element={<Blog />} />
+                    <Route path='/about' element={<About />} />
+                    <Route path='/sermon' element={<Sermon />} />
+                    <Route path='/blog' element={<Blog />} />
                 </Routes>
             </Router>
         </>

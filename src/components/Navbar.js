@@ -15,16 +15,16 @@ export const Navbar = () => {
                             <img src="./img/navlogo.svg" alt="" />
                         </li>
                         <li className="nav_link">
-                            <NavLink to='/'>Home</NavLink>
+                            <NavLink selected='activcalssname' to='/'>Home</NavLink>
                         </li>
                         <li className="nav_link">
-                            <NavLink to='/about'>About us</NavLink>
+                            <NavLink selected='activcalssname' to='/about'>About us</NavLink>
                         </li>
                         <li className="nav_link">
-                            <NavLink to='/sermon'>Sermon</NavLink>
+                            <NavLink selected='activcalssname' to='/sermon'>Sermon</NavLink>
                         </li>
                         <li className="nav_link">
-                            <NavLink to='/blog'>Blog</NavLink>
+                            <NavLink selected='activcalssname' to='/blog'>Blog</NavLink>
                         </li>
                     </ul>
                     <div className="nav_btn">

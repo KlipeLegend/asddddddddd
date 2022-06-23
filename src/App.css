@@ -258,6 +258,10 @@ html {
     background: url('../public/img/home_img.jpg');
 }
 
+.cotact_img {
+    background: url('../public/img/contact1.png') center center / cover no-repeat;
+}
+
 .bacom_text h1,
 h6 {
     color: #FFF;

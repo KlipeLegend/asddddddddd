@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bacom, CardTeam, CardThree, CardTwo, Props } from './All'
+import { Bacom, BacomContact, CardTeam, CardThree, CardTwo, Props } from './All'
 
 export const Home = () => {
     const propsImg = {
@@ -8,10 +8,11 @@ export const Home = () => {
     return (
         <>
             <h1>Home page</h1>
-            {/* <CardTwo /> */}
-            {/* <CardThree /> */}
-            {/* <CardTeam /> */}
-            {/* <Bacom /> */}
+            <CardTwo />
+            <CardThree />
+            <CardTeam />
+            <Bacom />
+            <BacomContact />
             <Props data={propsImg} />
         </>
     )

@@ -206,6 +206,19 @@ export const Bacom = () => {
     )
 }
 
+export const BacomContact = () => {
+    return (
+        <>
+            <div className="bacom cotact_img">
+                <div className="bacom_text">
+                    <h6>Contact</h6>
+                    <h1 className="all_h1">Get in touch with <br /> our CHURCH</h1>
+                </div>
+            </div>
+        </>
+    )
+}
+
 export const Props = ({ data }) => {
     return (
         <>

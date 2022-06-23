@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -74,3 +75,26 @@ html {
     text-transform: uppercase;
     color: #161722;
 }
+=======
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    display: block;
+    max-width: 1400px;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+.footer{
+    background: #161722;
+}
+=======
+>>>>>>> 4e3767da64c958867564b82da5594a8090906abb
+>>>>>>> f5f37c96b8e177cfc9fa37bd14567b32ea887c5f

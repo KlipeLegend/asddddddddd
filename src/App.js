@@ -1,29 +1,20 @@
 import './App.css';
-<<<<<<< HEAD
-import All from "./pages/All"
-function From() {
-  return (
-    <div className="From">
-      <All/>
-        </div>
-=======
+import {Footer} from './components/All'
+import {Over} from './components/All'
+import {Love} from './components/All'
+import {Benefits} from './components/All'
 import { Navbar } from './components/Navbar';
-
-
 function App() {
   return (
     <>
-      <Navbar />
+    <Navbar/>
+    {/* <Footer />
+    <Over />
+    <Love />
+   <Benefits/> */}
     </>
->>>>>>> 4e3767da64c958867564b82da5594a8090906abb
-  );
-
+  )
 }
-
-<<<<<<< HEAD
-export default From;
+export default App;
 
  
-=======
-export default App;
->>>>>>> 4e3767da64c958867564b82da5594a8090906abb

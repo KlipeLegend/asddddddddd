@@ -1,21 +1,487 @@
-<<<<<<< HEAD
-*{
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 body {
     margin: auto;
     display: block;
     max-width: 1400px;
 }
 
-html,
-body {
+html {
     overflow-x: hidden;
 }
-.footer{
+
+.footer {
     background: #161722;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 110px;
+    margin-top: 128px;
 }
-=======
->>>>>>> 4e3767da64c958867564b82da5594a8090906abb
+
+.fits h3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px 0;
+    color: #FFFFFF;
+
+}
+
+.qaicjk h1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.qaicjk h3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.78;
+}
+
+.qa {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.su h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subss {
+    margin-top: 32px;
+}
+
+.subss input {
+    padding: 20px 190px 20px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+}
+
+.all_button11 {
+    background: #FFD2A4;
+    border-radius: 12px;
+    margin-left: -20px;
+    padding: 21px 64px;
+}
+
+.over {
+    margin: 128px 0;
+}
+
+.ov img {
+    width: 1400px;
+    height: 750px;
+    /* position: absolute; */
+}
+
+.over_card {
+    position: absolute;
+    margin-top: -760px;
+    display: flex;
+    padding: 128px 320px;
+}
+
+.over_card div {
+    background: #fff;
+}
+
+.pad {
+    padding: 72px 48px;
+    display: flex;
+    border-bottom: 17px solid #FFD2A4;
+    gap: 40px;
+    align-items: center;
+}
+
+.over_card h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+
+.over_card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 0;
+    color: #161722;
+    opacity: 0.78;
+}
+
+.all_button111 {
+    background: #FFD2A4;
+    border-radius: 12px;
+    padding: 24px 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C1D28;
+}
+
+.line h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #161722;
+}
+
+.line {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.line h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+    padding: 16px 32px;
+}
+
+.line p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #161722;
+    opacity: 0.78;
+    margin-bottom: 30px;
+}
+
+.car button {
+    text-align: center;
+}
+
+.carus {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.slick-dots {
+    opacity: 0;
+}
+
+.tagi1 h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #161722;
+}
+
+.tagi1 h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height, or 138% */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #161722;
+}
+
+.tagi1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #161722;
+
+    opacity: 0.78;
+}
+
+.read {
+    font-size: 24px;
+    background: none;
+    margin-left: 650px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    transition: all .3s ease-in;
+}
+
+.read:hover {
+    color: aqua;
+}
+
+.con {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    z-index: -99;
+
+}
+
+.con.activ {
+    opacity: 1;
+    z-index: 99;
+}
+
+.con1 {
+    background: #fff;
+    width: 800px;
+    padding: 30px 30px 50px;
+    position: relative;
+}
+
+.close {
+    background: red;
+    color: #fff;
+    padding: 5px 10px;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    position: absolute;
+}
+
+.qiz p {
+    width: 500px;
+}
+.qiz{
+    margin-top: 40px;
+}
+.ota {
+    padding: 0 130px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.the {
+    text-align: center;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: #161722;
+    margin-bottom: 64px;
+}
+
+.dodo{
+    background:white;
+}
+.dodo p{
+    padding-top: 128px;
+    text-align: center;
+    justify-content: center;
+}
+.dodo h1{
+    padding-top: 16px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+    
+}
+.dodo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+}
+.dodo1{
+    width:412px;
+    height: 512px;
+    background: #FFF5EB;
+}
+.dodo1 h5{
+    padding-top: 61px;
+    padding-left: 89px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dodo1 h2{
+    margin-top: 16px;
+    padding-left: 89px;
+    align-items: center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+.dodo1 p{
+    padding-top: 16px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+}
+.soat{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+}
+.btn{
+    margin-top: 32px;
+    padding: 24px 64px;
+    background: #161722;
+    border-radius: 12px;
+    color: seashell;
+    margin-left: 89px;
+}
+.btn:hover{
+    background: rgb(113, 113, 150);
+    color:whitesmoke;
+    transition: all 0.4s ease-in-out;
+}
+.btn1{
+    margin-top: 32px;
+    margin-left: 48px;
+    background: #FFD2A4;
+    border-radius: 12px;
+    padding: 24px 64px;
+    margin-bottom: 85px;
+}
+.btn1:hover{
+    background: lightcoral;
+    color: lawngreen;
+    transition: all 0.3s ease-in-out;
+}
+.doda4{
+    background: #FFFFFF;
+}
+.dodo4 p{
+    padding-top: 128px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #161722;
+}
+.dodo4 h1{
+    padding-top: 16px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+.doda{
+    padding-top: 64px;
+    background: #FFFFFF;
+}
+.doda h5{
+    padding-left: 48px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #161722;
+    opacity: 0.8;
+}
+.doda h2{
+    padding-left: 48px;
+    padding-top: 12px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+.doda p{
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 48px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+}

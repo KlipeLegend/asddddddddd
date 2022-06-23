@@ -1,10 +1,17 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
 import { About } from './About'
+// import { Footer } from './All'
 import { Blog } from './Blog'
 import { Home } from './Home'
 import { Sermon } from './Sermon'
+import {All3} from './All'
+import {All2} from './All'
 
+import { Footer } from './All'
+import { Over } from './All'
+import { Love } from './All'
+import { Benefits } from './All'
 export const Navbar = () => {
     return (
         <>
@@ -37,7 +44,14 @@ export const Navbar = () => {
                     <Route path='/' element={<Sermon />} />
                     <Route path='/' element={<Blog />} />
                 </Routes>
+                <All2/>
+                <All3/>
+    <Over />
+    <Love />
+   <Benefits/>
+                <Footer />
             </Router>
+
         </>
     )
 }

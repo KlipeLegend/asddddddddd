@@ -1,9 +1,17 @@
 import React from 'react'
+import { BacomContact, Benefits, CardTeam, Love } from './All'
 
 export const About = () => {
     return (
         <>
-            <h1>About page</h1>
+            {/* <CardTwo/>
+        <CardThree/>
+        <CardTeam/>
+        <Bacom/> */}
+            <BacomContact />
+            <Love />
+            <Benefits />
+            <CardTeam />
         </>
     )
 }

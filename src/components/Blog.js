@@ -1,9 +1,11 @@
 import React from 'react'
+import { All3, CardTwo } from './All'
 
 export const Blog = () => {
     return (
-        <>
-            <h1>Blog page</h1>
-        </>
+        <div className='div'>
+       <All3/>
+       <CardTwo/>
+        </div>
     )
 }

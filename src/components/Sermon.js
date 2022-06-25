@@ -1,9 +1,12 @@
 import React from 'react'
+import { All2, BacomContact2, CardFour } from './All'
 
 export const Sermon = () => {
     return (
         <>
-            <h1>Sermon page</h1>
+        <BacomContact2/>
+        <All2/>
+        <CardFour/>
         </>
     )
 }

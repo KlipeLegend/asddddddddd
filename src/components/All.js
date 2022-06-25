@@ -46,6 +46,7 @@ export const Over = () => {
                     <img src="./img/over.png" alt="" />
                 </div>
 
+
                 <div className="over_card">
                     <div className='pad'>
                         <div>
@@ -298,7 +299,8 @@ export const All2 = () => {
     );
 };
 
-// bahrom okaaaaa
+// bahrom okaa
+
 export const CardTwo = () => {
     const dataTwo = [
         {
@@ -510,6 +512,7 @@ export const BacomContact = () => {
         <>
             <div className="bacom cotact_img">
                 <div className="bacom_text">
+
                     <h3>ABOUT US</h3>
                     <h1 className="all_h1"> Serving the world around us</h1>
                 </div>
@@ -517,6 +520,7 @@ export const BacomContact = () => {
         </>
     )
 }
+
 export const BacomContact2 = () => {
     return (
         <>
@@ -594,3 +598,7 @@ export const CardFour = () => {
         </>
     )
 }
+
+
+
+

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { All2, CardThree, Love } from './All'
-
+import { Bacom, All2, BacomContact,Love , CardTeam, CardThree, CardTwo, Props } from './All'
 export const Home = () => {
   const[card,setCard] = useState([
     {

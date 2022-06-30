@@ -113,11 +113,11 @@ const Home = () => {
     <>
       <div className="header">
         <div className="opa">
-          <img src="./img/img/opa.png" alt="" />
+          <img src="./img/icon/Logo.svg" alt="" />
         </div>
       </div>
       <div className="diva">
-        <img src="./img/img/line.png" alt="" />
+        <img src="./img/icon/s12.png" alt="" />
         <h1 className="shop">Shop your style</h1>
         <img src="./img/img/line.png" alt="" />
       </div>

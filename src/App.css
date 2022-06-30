@@ -1,12 +1,181 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     border: none;
+} */
+/* .dodo{
+    background:white;
 }
+.dodo p{
+    padding-top: 128px;
+    text-align: center;
+    justify-content: center;
+}
+.dodo h1{
+    padding-top: 16px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+    
+}
+.dodo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+}
+.dodo1{
+    width:412px;
+    height: 512px;
+    background: #FFF5EB;
+}
+.dodo1 h5{
+    padding-top: 61px;
+    padding-left: 89px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dodo1 h2{
+    margin-top: 16px;
+    padding-left: 89px;
+    align-items: center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+.dodo1 p{
+    padding-top: 16px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+}
+.soat{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+}
+.btn{
+    margin-top: 32px;
+    padding: 24px 64px;
+    background: #161722;
+    border-radius: 12px;
+    color: seashell;
+    margin-left: 89px;
+}
+.btn:hover{
+    background: rgb(113, 113, 150);
+    color:whitesmoke;
+    transition: all 0.4s ease-in-out;
+}
+.btn1{
+    margin-top: 32px;
+    margin-left: 48px;
+    background: #FFD2A4;
+    border-radius: 12px;
+    padding: 24px 64px;
+    margin-bottom: 85px;
+}
+.btn1:hover{
+    background: lightcoral;
+    color: lawngreen;
+    transition: all 0.3s ease-in-out;
+}
+.doda4{
+    background: #FFFFFF;
+}
+.dodo4 p{
+    padding-top: 128px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #161722;
+}
+.dodo4 h1{
+    padding-top: 16px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+.doda{
+    padding-top: 64px;
+    background: #FFFFFF;
+}
+.doda h5{
+    padding-left: 48px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #161722;
+    opacity: 0.8;
+}
+.doda h2{
+    padding-left: 48px;
+    padding-top: 12px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+.doda p{
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 48px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+} */
+
 
 body {
     margin: auto;
@@ -161,8 +330,6 @@ nav {
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
-    /* or 146% */
-
     text-align: center;
     margin-bottom: 60px;
     color: #000000;
@@ -175,8 +342,8 @@ nav {
 }
 
 .card {
-    text-align: center;
-    /* margin-top: 20px; */
+    text-align: center; 
+    margin-top: 20px;
 }
 
 .card h1 {
@@ -185,13 +352,9 @@ nav {
     font-weight: 400;
     font-size: 20px;
     line-height: 14px;
-    /* identical to box height, or 70% */
-
     text-align: center;
     letter-spacing: 0.2px;
-
     color: #000000;
-
 }
 
 .card p {
@@ -238,14 +401,12 @@ nav {
 
 .cat_buttons button {
     display: block;
-    /* margin-top: 16px; */
     background: none;
     font-weight: 600;
     font-size: 16px;
     line-height: 18px;
     color: #686868;
     transition: all 0.3s ease-in-out;
-    /* padding: 5px 0;   */
 }
 
 .cat_buttons button:hover {

@@ -156,7 +156,7 @@ export default class CustomArrows extends Component {
            
                     
                 </Slider>      <div className="palus">
-                <img src="./img/icon/avatar3.svg" alt="" />
+                <img src="./img/icon/Logo.svg" alt="" />
                 <img src="./img/icon/avatar2.svg" alt="" />
                 <img src="./img/icon/avatar.svg" alt="" />
                 <img src="./img/icon/avatar2.svg" alt="" />

@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 // import All from './pages/command/All';
 // import All3 from './pages/command/All3';
 import Case from './pages/Case';
@@ -60,11 +61,21 @@ function From() {
     </div>
     
   );
+=======
+import { Navbar } from './components/Navbar';
+function App() {
+  return (
+    <>
+    <Navbar/>
+    </>
+>>>>>>> 7607fdfd604e9303cc6fdfe9ac705acc433334de
 
+  )
 }
+export default App;
 
-export default From;
 
+<<<<<<< HEAD
 export const Footer = () => {
   return (
     <div className="footer">
@@ -110,3 +121,5 @@ export const Footer = () => {
     </div>
   )
 }
+=======
+>>>>>>> 7607fdfd604e9303cc6fdfe9ac705acc433334de
